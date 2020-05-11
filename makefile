@@ -23,5 +23,9 @@ readme_file:
 	echo '   in the current directory they should be congratulated.' >> README.md
 	echo '' >> README.md
 	echo '##The number of lines contained in guessinggame.sh is:## ' `wc -l guessinggame.sh | egrep -o "[0-9]+"` >> README.md	
-	echo ''  >> README.md
-	echo '' >> README.txt
+	echo '' >> README.md
+	echo '##Course information##' >> README.md
+	echo '([https://www.coursera.org/learn/unix/home/welcome])' >> README.md
+	echo '' >> README.md
+	echo 'This project can be found in ([https://github.com/RitaSR/my-unix-project])' >> README.md
+	echo '' >> README.md
